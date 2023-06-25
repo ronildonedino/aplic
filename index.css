@@ -140,6 +140,29 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_Text7
 {
    position: absolute;
@@ -150,13 +173,23 @@ body
    visibility: hidden;
    z-index: 4;
 }
+#wb_Text1
+{
+   position: absolute;
+   left: 163px;
+   top: 358px;
+   width: 1068px;
+   height: 73px;
+   visibility: hidden;
+   z-index: 9;
+}
 #wb_Shape8
 {
    position: absolute;
    left: 208px;
    top: 378px;
-   width: 625px;
-   height: 85px;
+   width: 301px;
+   height: 39px;
    visibility: hidden;
    z-index: 1;
 }
@@ -165,8 +198,8 @@ body
    position: absolute;
    left: 208px;
    top: 378px;
-   width: 625px;
-   height: 85px;
+   width: 301px;
+   height: 34px;
    visibility: hidden;
    z-index: 3;
 }
@@ -182,20 +215,20 @@ body
 }
 #Shape5
 {
-   width: 1088px;
+   width: 301px;
    height: 980px;
 }
 #Shape6
 {
-   width: 625px;
-   height: 85px;
+   width: 301px;
+   height: 40px;
 }
 #wb_Shape5
 {
    position: absolute;
    left: 0px;
    top: 0px;
-   width: 1088px;
+   width: 301px;
    height: 980px;
    visibility: hidden;
    z-index: 0;
@@ -205,15 +238,15 @@ body
    position: absolute;
    left: 208px;
    top: 378px;
-   width: 625px;
-   height: 85px;
+   width: 301px;
+   height: 40px;
    visibility: hidden;
    z-index: 2;
 }
 #Shape8
 {
-   width: 625px;
-   height: 85px;
+   width: 301px;
+   height: 39px;
 }
 #wb_Text8
 {
@@ -227,8 +260,8 @@ body
 }
 #Shape9
 {
-   width: 625px;
-   height: 85px;
+   width: 301px;
+   height: 34px;
 }
 #wb_Text9
 {
@@ -244,7 +277,7 @@ body
 {
 div#container
 {
-   width: 1080px;
+   width: 301px;
    height: 1356px;
 }
 body
@@ -262,34 +295,34 @@ body
 }
 #wb_Shape8
 {
-   left: 107px;
-   top: 444px;
+   left: 0px;
+   top: 159px;
    visibility: visible;
    display: inline;
    margin: 0;
 }
 #wb_Shape6
 {
-   left: 107px;
-   top: 549px;
+   left: 0px;
+   top: 219px;
    visibility: visible;
    display: inline;
    margin: 0;
 }
 #wb_Shape9
 {
-   left: 107px;
-   top: 654px;
+   left: 0px;
+   top: 281px;
    visibility: visible;
    display: inline;
    margin: 0;
 }
 #wb_Text7
 {
-   left: 107px;
-   top: 744px;
-   width: 481px;
-   height: 73px;
+   left: 23px;
+   top: 98px;
+   width: 254px;
+   height: 40px;
    visibility: visible;
    display: inline;
 }
@@ -297,18 +330,18 @@ body
 {
    font-family: Montserrat;
    font-weight: 400;
-   font-size: 53px;
+   font-size: 29px;
    margin: 0;
    padding: 0;
-   text-align: left;
-   line-height: 74px;
+   text-align: center;
+   line-height: 40px;
 }
 #wb_Text8
 {
-   left: 107px;
-   top: 450px;
-   width: 625px;
-   height: 73px;
+   left: 0px;
+   top: 156px;
+   width: 301px;
+   height: 42px;
    visibility: visible;
    display: inline;
 }
@@ -316,18 +349,17 @@ body
 {
    font-family: Montserrat;
    font-weight: 400;
-   font-size: 53px;
+   font-size: 35px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 74px;
 }
 #wb_Text9
 {
-   left: 107px;
-   top: 555px;
-   width: 625px;
-   height: 73px;
+   left: 0px;
+   top: 273px;
+   width: 301px;
+   height: 47px;
    visibility: visible;
    display: inline;
 }
@@ -335,18 +367,18 @@ body
 {
    font-family: Montserrat;
    font-weight: 400;
-   font-size: 53px;
+   font-size: 35px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 74px;
+   line-height: 48px;
 }
 #wb_Text10
 {
-   left: 107px;
-   top: 660px;
-   width: 625px;
-   height: 73px;
+   left: 0px;
+   top: 212px;
+   width: 301px;
+   height: 47px;
    visibility: visible;
    display: inline;
 }
@@ -354,10 +386,29 @@ body
 {
    font-family: Montserrat;
    font-weight: 400;
-   font-size: 53px;
+   font-size: 35px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 74px;
+   line-height: 48px;
+}
+#wb_Text1
+{
+   left: 16px;
+   top: 132px;
+   width: 268px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
 }
 }
